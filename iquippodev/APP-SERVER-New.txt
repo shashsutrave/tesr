@@ -1,0 +1,477 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                                                     DescribeInstancePatches                                                                                    |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+||                                                                                            Patches                                                                                           ||
+|+----------------+----------------+---------------------------------------------------------+------------+-----------------+-------------------------------------------------------------------+|
+|| Classification | InstalledTime  |                          KBId                           | Severity   |      State      |                               Title                               ||
+|+----------------+----------------+---------------------------------------------------------+------------+-----------------+-------------------------------------------------------------------+|
+||  Bugfix        |  1576052786.0  |  GeoIP.x86_64                                           |  None      |  Installed      |  GeoIP.x86_64:0:1.5.0-14.el7                                      ||
+||  Bugfix        |  1576060952.0  |  alsa-lib.x86_64                                        |  None      |  Installed      |  alsa-lib.x86_64:0:1.1.8-1.el7                                    ||
+||  Bugfix        |  1576060946.0  |  atk.x86_64                                             |  None      |  Installed      |  atk.x86_64:0:2.28.1-1.el7                                        ||
+||  Bugfix        |  1576052825.0  |  audit.x86_64                                           |  None      |  Installed      |  audit.x86_64:0:2.8.5-4.el7                                       ||
+||  Bugfix        |  1576052777.0  |  audit-libs.x86_64                                      |  None      |  Installed      |  audit-libs.x86_64:0:2.8.5-4.el7                                  ||
+||  Bugfix        |  1576052783.0  |  audit-libs-python.x86_64                               |  None      |  Installed      |  audit-libs-python.x86_64:0:2.8.5-4.el7                           ||
+||  Bugfix        |  1521827142.0  |  authconfig.x86_64                                      |  None      |  Installed      |  authconfig.x86_64:0:6.2.8-30.el7                                 ||
+||  Bugfix        |  1576060948.0  |  avahi-libs.x86_64                                      |  None      |  Installed      |  avahi-libs.x86_64:0:0.6.31-19.el7                                ||
+||  Bugfix        |  1576052777.0  |  bash.x86_64                                            |  None      |  Installed      |  bash.x86_64:0:4.2.46-33.el7                                      ||
+||  Bugfix        |  1521827146.0  |  btrfs-progs.x86_64                                     |  None      |  Installed      |  btrfs-progs.x86_64:0:4.9.1-1.el7                                 ||
+||  Bugfix        |  1521826905.0  |  bzip2-libs.x86_64                                      |  None      |  Installed      |  bzip2-libs.x86_64:0:1.0.6-13.el7                                 ||
+||  Bugfix        |  1576052778.0  |  ca-certificates.noarch                                 |  None      |  Installed      |  ca-certificates.noarch:0:2019.2.32-76.el7_7                      ||
+||  Bugfix        |  1576060953.0  |  cairo.x86_64                                           |  None      |  Installed      |  cairo.x86_64:0:1.15.12-4.el7                                     ||
+||  Bugfix        |  1576052810.0  |  checkpolicy.x86_64                                     |  None      |  Installed      |  checkpolicy.x86_64:0:2.5-8.el7                                   ||
+||  Bugfix        |  1521826904.0  |  chkconfig.x86_64                                       |  None      |  Installed      |  chkconfig.x86_64:0:1.7.4-1.el7                                   ||
+||  Bugfix        |  1576052831.0  |  chrony.x86_64                                          |  None      |  Installed      |  chrony.x86_64:0:3.4-1.el7                                        ||
+||  Bugfix        |  1576052831.0  |  cloud-utils-growpart.noarch                            |  None      |  Installed      |  cloud-utils-growpart.noarch:0:0.29-5.el7                         ||
+||  Bugfix        |  1576060946.0  |  copy-jdk-configs.noarch                                |  None      |  Installed      |  copy-jdk-configs.noarch:0:3.3-10.el7_5                           ||
+||  Bugfix        |  1576052779.0  |  coreutils.x86_64                                       |  None      |  Installed      |  coreutils.x86_64:0:8.22-24.el7                                   ||
+||  Bugfix        |  1521826908.0  |  cpio.x86_64                                            |  None      |  Installed      |  cpio.x86_64:0:2.11-27.el7                                        ||
+||  Bugfix        |  1576052809.0  |  cronie.x86_64                                          |  None      |  Installed      |  cronie.x86_64:0:1.4.11-23.el7                                    ||
+||  Bugfix        |  1576052809.0  |  cronie-anacron.x86_64                                  |  None      |  Installed      |  cronie-anacron.x86_64:0:1.4.11-23.el7                            ||
+||  Bugfix        |  1576060948.0  |  cups-libs.x86_64                                       |  None      |  Installed      |  cups-libs.x86_64:1:1.6.3-40.el7                                  ||
+||  Bugfix        |  1521826938.0  |  cyrus-sasl-lib.x86_64                                  |  None      |  Installed      |  cyrus-sasl-lib.x86_64:0:2.1.26-23.el7                            ||
+||  Bugfix        |  1576052800.0  |  dbus.x86_64                                            |  None      |  Installed      |  dbus.x86_64:1:1.10.24-13.el7_6                                   ||
+||  Bugfix        |  1576052798.0  |  dbus-libs.x86_64                                       |  None      |  Installed      |  dbus-libs.x86_64:1:1.10.24-13.el7_6                              ||
+||  Bugfix        |  1576052832.0  |  desktop-file-utils.x86_64                              |  None      |  Installed      |  desktop-file-utils.x86_64:0:0.23-2.el7                           ||
+||  Bugfix        |  1576052777.0  |  diffutils.x86_64                                       |  None      |  Installed      |  diffutils.x86_64:0:3.3-5.el7                                     ||
+||  Bugfix        |  1576052797.0  |  dmidecode.x86_64                                       |  None      |  Installed      |  dmidecode.x86_64:1:3.2-3.el7                                     ||
+||  Bugfix        |  1576052771.0  |  emacs-filesystem.noarch                                |  None      |  Installed      |  emacs-filesystem.noarch:1:24.3-22.el7                            ||
+||  Bugfix        |  1576052782.0  |  ethtool.x86_64                                         |  None      |  Installed      |  ethtool.x86_64:2:4.8-10.el7                                      ||
+||  Bugfix        |  1576052778.0  |  file.x86_64                                            |  None      |  Installed      |  file.x86_64:0:5.11-35.el7                                        ||
+||  Bugfix        |  1576052778.0  |  file-libs.x86_64                                       |  None      |  Installed      |  file-libs.x86_64:0:5.11-35.el7                                   ||
+||  Bugfix        |  1521826889.0  |  filesystem.x86_64                                      |  None      |  Installed      |  filesystem.x86_64:0:3.2-25.el7                                   ||
+||  Bugfix        |  1576052778.0  |  findutils.x86_64                                       |  None      |  Installed      |  findutils.x86_64:1:4.5.11-6.el7                                  ||
+||  Bugfix        |  1521826962.0  |  fipscheck.x86_64                                       |  None      |  Installed      |  fipscheck.x86_64:0:1.4.1-6.el7                                   ||
+||  Bugfix        |  1521826962.0  |  fipscheck-lib.x86_64                                   |  None      |  Installed      |  fipscheck-lib.x86_64:0:1.4.1-6.el7                               ||
+||  Bugfix        |  1576060945.0  |  fontconfig.x86_64                                      |  None      |  Installed      |  fontconfig.x86_64:0:2.13.0-4.3.el7                               ||
+||  Bugfix        |  1576052786.0  |  freetype.x86_64                                        |  None      |  Installed      |  freetype.x86_64:0:2.8-14.el7                                     ||
+||  Bugfix        |  1521826905.0  |  gawk.x86_64                                            |  None      |  Installed      |  gawk.x86_64:0:4.0.2-4.el7_3.1                                    ||
+||  Bugfix        |  1576052832.0  |  gdisk.x86_64                                           |  None      |  Installed      |  gdisk.x86_64:0:0.8.10-3.el7                                      ||
+||  Bugfix        |  1576060947.0  |  gdk-pixbuf2.x86_64                                     |  None      |  Installed      |  gdk-pixbuf2.x86_64:0:2.36.12-3.el7                               ||
+||  Bugfix        |  1521826940.0  |  gettext.x86_64                                         |  None      |  Installed      |  gettext.x86_64:0:0.19.8.1-2.el7                                  ||
+||  Bugfix        |  1521826939.0  |  gettext-libs.x86_64                                    |  None      |  Installed      |  gettext-libs.x86_64:0:0.19.8.1-2.el7                             ||
+||  Bugfix        |  1576052782.0  |  glib2.x86_64                                           |  None      |  Installed      |  glib2.x86_64:0:2.56.1-5.el7                                      ||
+||  Bugfix        |  1521826919.0  |  gmp.x86_64                                             |  None      |  Installed      |  gmp.x86_64:1:6.0.0-15.el7                                        ||
+||  Security      |  1576052785.0  |  gnupg2.x86_64                                          |  Important |  Installed      |  gnupg2.x86_64:0:2.0.22-5.el7_5                                   ||
+||  Bugfix        |  1576052782.0  |  gobject-introspection.x86_64                           |  None      |  Installed      |  gobject-introspection.x86_64:0:1.56.1-1.el7                      ||
+||  Bugfix        |  1576057763.0  |  gpm-libs.x86_64                                        |  None      |  Installed      |  gpm-libs.x86_64:0:1.20.7-6.el7                                   ||
+||  Security      |  1576060946.0  |  graphite2.x86_64                                       |  Important |  Installed      |  graphite2.x86_64:0:1.3.10-1.el7_3                                ||
+||  Bugfix        |  1521826905.0  |  grep.x86_64                                            |  None      |  Installed      |  grep.x86_64:0:2.20-3.el7                                         ||
+||  Bugfix        |  1576052782.0  |  grubby.x86_64                                          |  None      |  Installed      |  grubby.x86_64:0:8.28-26.el7                                      ||
+||  Bugfix        |  1576060947.0  |  gtk-update-icon-cache.x86_64                           |  None      |  Installed      |  gtk-update-icon-cache.x86_64:0:3.22.30-3.el7                     ||
+||  Bugfix        |  1576060953.0  |  gtk2.x86_64                                            |  None      |  Installed      |  gtk2.x86_64:0:2.24.31-1.el7                                      ||
+||  Bugfix        |  1521826932.0  |  gzip.x86_64                                            |  None      |  Installed      |  gzip.x86_64:0:1.5-10.el7                                         ||
+||  Bugfix        |  1576053025.0  |  haproxy.x86_64                                         |  None      |  Installed      |  haproxy.x86_64:0:1.5.18-9.el7                                    ||
+||  Bugfix        |  1576060946.0  |  harfbuzz.x86_64                                        |  None      |  Installed      |  harfbuzz.x86_64:0:1.7.5-2.el7                                    ||
+||  Bugfix        |  1576052782.0  |  hostname.x86_64                                        |  None      |  Installed      |  hostname.x86_64:0:3.13-3.el7_7.1                                 ||
+||  Bugfix        |  1521826903.0  |  info.x86_64                                            |  None      |  Installed      |  info.x86_64:0:5.1-5.el7                                          ||
+||  Bugfix        |  1576052796.0  |  iproute.x86_64                                         |  None      |  Installed      |  iproute.x86_64:0:4.11.0-25.el7_7.2                               ||
+||  Bugfix        |  1521826974.0  |  iputils.x86_64                                         |  None      |  Installed      |  iputils.x86_64:0:20160308-10.el7                                 ||
+||  Bugfix        |  1576052831.0  |  irqbalance.x86_64                                      |  None      |  Installed      |  irqbalance.x86_64:3:1.0.7-12.el7                                 ||
+||  Security      |  1576052835.0  |  iwl7265-firmware.noarch                                |  Important |  Installed      |  iwl7265-firmware.noarch:0:22.0.7.0-72.el7                        ||
+||  Bugfix        |  1521826912.0  |  jansson.x86_64                                         |  None      |  Installed      |  jansson.x86_64:0:2.10-1.el7                                      ||
+||  Bugfix        |  1576060946.0  |  jasper-libs.x86_64                                     |  None      |  Installed      |  jasper-libs.x86_64:0:1.900.1-33.el7                              ||
+||  Bugfix        |  1576060948.0  |  javapackages-tools.noarch                              |  None      |  Installed      |  javapackages-tools.noarch:0:3.4.1-11.el7                         ||
+||  Bugfix        |  1576052811.0  |  kbd.x86_64                                             |  None      |  Installed      |  kbd.x86_64:0:1.15.5-15.el7                                       ||
+||  Bugfix        |  1576052810.0  |  kbd-legacy.noarch                                      |  None      |  Installed      |  kbd-legacy.noarch:0:1.15.5-15.el7                                ||
+||  Bugfix        |  1576052771.0  |  kbd-misc.noarch                                        |  None      |  Installed      |  kbd-misc.noarch:0:1.15.5-15.el7                                  ||
+||  Bugfix        |  1521826914.0  |  less.x86_64                                            |  None      |  Installed      |  less.x86_64:0:458-9.el7                                          ||
+||  Bugfix        |  1576060945.0  |  libICE.x86_64                                          |  None      |  Installed      |  libICE.x86_64:0:1.0.9-9.el7                                      ||
+||  Bugfix        |  1576060945.0  |  libSM.x86_64                                           |  None      |  Installed      |  libSM.x86_64:0:1.2.2-2.el7                                       ||
+||  Bugfix        |  1576060947.0  |  libX11.x86_64                                          |  None      |  Installed      |  libX11.x86_64:0:1.6.7-2.el7                                      ||
+||  Bugfix        |  1576060947.0  |  libX11-common.noarch                                   |  None      |  Installed      |  libX11-common.noarch:0:1.6.7-2.el7                               ||
+||  Bugfix        |  1576060947.0  |  libXext.x86_64                                         |  None      |  Installed      |  libXext.x86_64:0:1.3.3-3.el7                                     ||
+||  Bugfix        |  1576060947.0  |  libXft.x86_64                                          |  None      |  Installed      |  libXft.x86_64:0:2.3.2-2.el7                                      ||
+||  Bugfix        |  1576060947.0  |  libXi.x86_64                                           |  None      |  Installed      |  libXi.x86_64:0:1.7.9-1.el7                                       ||
+||  Bugfix        |  1576060947.0  |  libXrandr.x86_64                                       |  None      |  Installed      |  libXrandr.x86_64:0:1.5.1-2.el7                                   ||
+||  Bugfix        |  1576057864.0  |  libaio.x86_64                                          |  None      |  Installed      |  libaio.x86_64:0:0.3.109-13.el7                                   ||
+||  Bugfix        |  1521826906.0  |  libattr.x86_64                                         |  None      |  Installed      |  libattr.x86_64:0:2.4.46-13.el7                                   ||
+||  Bugfix        |  1521826906.0  |  libcap-ng.x86_64                                       |  None      |  Installed      |  libcap-ng.x86_64:0:0.7.5-4.el7                                   ||
+||  Bugfix        |  1576052810.0  |  libcgroup.x86_64                                       |  None      |  Installed      |  libcgroup.x86_64:0:0.41-21.el7                                   ||
+||  Bugfix        |  1576052777.0  |  libdb.x86_64                                           |  None      |  Installed      |  libdb.x86_64:0:5.3.21-25.el7                                     ||
+||  Bugfix        |  1576052785.0  |  libdb-utils.x86_64                                     |  None      |  Installed      |  libdb-utils.x86_64:0:5.3.21-25.el7                               ||
+||  Bugfix        |  1576060952.0  |  libdrm.x86_64                                          |  None      |  Installed      |  libdrm.x86_64:0:2.4.97-2.el7                                     ||
+||  Bugfix        |  1576052797.0  |  libfastjson.x86_64                                     |  None      |  Installed      |  libfastjson.x86_64:0:0.99.4-3.el7                                ||
+||  Bugfix        |  1576060946.0  |  libfontenc.x86_64                                      |  None      |  Installed      |  libfontenc.x86_64:0:1.1.3-3.el7                                  ||
+||  Bugfix        |  1576052770.0  |  libgcc.x86_64                                          |  None      |  Installed      |  libgcc.x86_64:0:4.8.5-39.el7                                     ||
+||  Bugfix        |  1521826907.0  |  libgcrypt.x86_64                                       |  None      |  Installed      |  libgcrypt.x86_64:0:1.5.3-14.el7                                  ||
+||  Bugfix        |  1576052833.0  |  libgomp.x86_64                                         |  None      |  Installed      |  libgomp.x86_64:0:4.8.5-39.el7                                    ||
+||  Bugfix        |  1521826911.0  |  libidn.x86_64                                          |  None      |  Installed      |  libidn.x86_64:0:1.28-4.el7                                       ||
+||  Bugfix        |  1576060944.0  |  libjpeg-turbo.x86_64                                   |  None      |  Installed      |  libjpeg-turbo.x86_64:0:1.2.90-8.el7                              ||
+||  Bugfix        |  1576052797.0  |  libndp.x86_64                                          |  None      |  Installed      |  libndp.x86_64:0:1.2-9.el7                                        ||
+||  Bugfix        |  1521826913.0  |  libnetfilter_conntrack.x86_64                          |  None      |  Installed      |  libnetfilter_conntrack.x86_64:0:1.0.6-1.el7_3                    ||
+||  Bugfix        |  1521826907.0  |  libnl3.x86_64                                          |  None      |  Installed      |  libnl3.x86_64:0:3.2.28-4.el7                                     ||
+||  Bugfix        |  1521826909.0  |  libnl3-cli.x86_64                                      |  None      |  Installed      |  libnl3-cli.x86_64:0:3.2.28-4.el7                                 ||
+||  Bugfix        |  1576060952.0  |  libpciaccess.x86_64                                    |  None      |  Installed      |  libpciaccess.x86_64:0:0.14-1.el7                                 ||
+||  Bugfix        |  1521826936.0  |  libpwquality.x86_64                                    |  None      |  Installed      |  libpwquality.x86_64:0:1.2.3-5.el7                                ||
+||  Bugfix        |  1576052777.0  |  libselinux.x86_64                                      |  None      |  Installed      |  libselinux.x86_64:0:2.5-14.1.el7                                 ||
+||  Bugfix        |  1576052782.0  |  libselinux-python.x86_64                               |  None      |  Installed      |  libselinux-python.x86_64:0:2.5-14.1.el7                          ||
+||  Bugfix        |  1576052787.0  |  libselinux-utils.x86_64                                |  None      |  Installed      |  libselinux-utils.x86_64:0:2.5-14.1.el7                           ||
+||  Bugfix        |  1576052777.0  |  libsemanage.x86_64                                     |  None      |  Installed      |  libsemanage.x86_64:0:2.5-14.el7                                  ||
+||  Bugfix        |  1576052783.0  |  libsemanage-python.x86_64                              |  None      |  Installed      |  libsemanage-python.x86_64:0:2.5-14.el7                           ||
+||  Bugfix        |  1576052777.0  |  libsepol.x86_64                                        |  None      |  Installed      |  libsepol.x86_64:0:2.5-10.el7                                     ||
+||  Security      |  1576052784.0  |  libssh2.x86_64                                         |  Important |  Installed      |  libssh2.x86_64:0:1.8.0-3.el7                                     ||
+||  Bugfix        |  1576052777.0  |  libstdc++.x86_64                                       |  None      |  Installed      |  libstdc++.x86_64:0:4.8.5-39.el7                                  ||
+||  Bugfix        |  1521826922.0  |  libtasn1.x86_64                                        |  None      |  Installed      |  libtasn1.x86_64:0:4.10-1.el7                                     ||
+||  Security      |  1576060946.0  |  libtiff.x86_64                                         |  Important |  Installed      |  libtiff.x86_64:0:4.0.3-32.el7                                    ||
+||  Bugfix        |  1576063956.0  |  libtirpc.x86_64                                        |  None      |  Installed      |  libtirpc.x86_64:0:0.2.4-0.16.el7                                 ||
+||  Bugfix        |  1521826964.0  |  libuser.x86_64                                         |  None      |  Installed      |  libuser.x86_64:0:0.60-9.el7                                      ||
+||  Bugfix        |  1576060946.0  |  libwayland-client.x86_64                               |  None      |  Installed      |  libwayland-client.x86_64:0:1.15.0-1.el7                          ||
+||  Bugfix        |  1576060945.0  |  libwayland-server.x86_64                               |  None      |  Installed      |  libwayland-server.x86_64:0:1.15.0-1.el7                          ||
+||  Bugfix        |  1576060946.0  |  libxcb.x86_64                                          |  None      |  Installed      |  libxcb.x86_64:0:1.13-1.el7                                       ||
+||  Security      |  1521826904.0  |  libxml2.x86_64                                         |  Important |  Installed      |  libxml2.x86_64:0:2.9.1-6.el7_2.3                                 ||
+||  Security      |  1521826938.0  |  libxml2-python.x86_64                                  |  Important |  Installed      |  libxml2-python.x86_64:0:2.9.1-6.el7_2.3                          ||
+||  Bugfix        |  1576060944.0  |  libxshmfence.x86_64                                    |  None      |  Installed      |  libxshmfence.x86_64:0:1.2-1.el7                                  ||
+||  Bugfix        |  1576060947.0  |  lksctp-tools.x86_64                                    |  None      |  Installed      |  lksctp-tools.x86_64:0:1.0.17-2.el7                               ||
+||  Bugfix        |  1521826907.0  |  lua.x86_64                                             |  None      |  Installed      |  lua.x86_64:0:5.1.4-15.el7                                        ||
+||  Bugfix        |  1576052782.0  |  lz4.x86_64                                             |  None      |  Installed      |  lz4.x86_64:0:1.7.5-3.el7                                         ||
+||  Bugfix        |  1521826911.0  |  lzo.x86_64                                             |  None      |  Installed      |  lzo.x86_64:0:2.06-8.el7                                          ||
+||  Bugfix        |  1521826937.0  |  m2crypto.x86_64                                        |  None      |  Installed      |  m2crypto.x86_64:0:0.21.1-17.el7                                  ||
+||  Bugfix        |  1576052797.0  |  make.x86_64                                            |  None      |  Installed      |  make.x86_64:1:3.82-24.el7                                        ||
+||  Bugfix        |  1576052832.0  |  man-db.x86_64                                          |  None      |  Installed      |  man-db.x86_64:0:2.6.3-11.el7                                     ||
+||  Security      |  1576052784.0  |  mariadb-libs.x86_64                                    |  Important |  Installed      |  mariadb-libs.x86_64:1:5.5.64-1.el7                               ||
+||  Bugfix        |  1576052829.0  |  microcode_ctl.x86_64                                   |  None      |  Installed      |  microcode_ctl.x86_64:2:2.1-53.7.el7_7                            ||
+||  Bugfix        |  1521826919.0  |  mozjs17.x86_64                                         |  None      |  Installed      |  mozjs17.x86_64:0:17.0.0-20.el7                                   ||
+||  Bugfix        |  1521826917.0  |  ncurses.x86_64                                         |  None      |  Installed      |  ncurses.x86_64:0:5.9-14.20130511.el7_4                           ||
+||  Bugfix        |  1521826891.0  |  ncurses-base.noarch                                    |  None      |  Installed      |  ncurses-base.noarch:0:5.9-14.20130511.el7_4                      ||
+||  Bugfix        |  1521826902.0  |  ncurses-libs.x86_64                                    |  None      |  Installed      |  ncurses-libs.x86_64:0:5.9-14.20130511.el7_4                      ||
+||  Bugfix        |  1576052810.0  |  net-tools.x86_64                                       |  None      |  Installed      |  net-tools.x86_64:0:2.0-0.25.20131004git.el7                      ||
+||  Security      |  1576061885.0  |  nginx.x86_64                                           |  Important |  Installed      |  nginx.x86_64:1:1.17.6-1.el7.ngx                                  ||
+||  Security      |  1576052777.0  |  nspr.x86_64                                            |  Critical  |  Installed      |  nspr.x86_64:0:4.21.0-1.el7                                       ||
+||  Bugfix        |  1576052782.0  |  nss-pem.x86_64                                         |  None      |  Installed      |  nss-pem.x86_64:0:1.0.3-7.el7                                     ||
+||  Bugfix        |  1576052785.0  |  openldap.x86_64                                        |  None      |  Installed      |  openldap.x86_64:0:2.4.44-21.el7_6                                ||
+||  Bugfix        |  1576052801.0  |  openssh.x86_64                                         |  None      |  Installed      |  openssh.x86_64:0:7.4p1-21.el7                                    ||
+||  Bugfix        |  1576052823.0  |  openssh-clients.x86_64                                 |  None      |  Installed      |  openssh-clients.x86_64:0:7.4p1-21.el7                            ||
+||  Bugfix        |  1576052823.0  |  openssh-server.x86_64                                  |  None      |  Installed      |  openssh-server.x86_64:0:7.4p1-21.el7                             ||
+||  Bugfix        |  1576052831.0  |  openssl.x86_64                                         |  None      |  Installed      |  openssl.x86_64:1:1.0.2k-19.el7                                   ||
+||  Bugfix        |  1576052779.0  |  openssl-libs.x86_64                                    |  None      |  Installed      |  openssl-libs.x86_64:1:1.0.2k-19.el7                              ||
+||  Bugfix        |  1521826976.0  |  os-prober.x86_64                                       |  None      |  Installed      |  os-prober.x86_64:0:1.58-9.el7                                    ||
+||  Bugfix        |  1521826909.0  |  p11-kit.x86_64                                         |  None      |  Installed      |  p11-kit.x86_64:0:0.23.5-3.el7                                    ||
+||  Bugfix        |  1521826922.0  |  p11-kit-trust.x86_64                                   |  None      |  Installed      |  p11-kit-trust.x86_64:0:0.23.5-3.el7                              ||
+||  Security      |  1576060953.0  |  pango.x86_64                                           |  Important |  Installed      |  pango.x86_64:0:1.42.4-4.el7_7                                    ||
+||  Bugfix        |  1521826965.0  |  pciutils-libs.x86_64                                   |  None      |  Installed      |  pciutils-libs.x86_64:0:3.5.1-3.el7                               ||
+||  Bugfix        |  1521826903.0  |  pcre.x86_64                                            |  None      |  Installed      |  pcre.x86_64:0:8.32-17.el7                                        ||
+||  Bugfix        |  1576060947.0  |  pcsc-lite-libs.x86_64                                  |  None      |  Installed      |  pcsc-lite-libs.x86_64:0:1.8.8-8.el7                              ||
+||  Bugfix        |  1576057761.0  |  perl-Getopt-Long.noarch                                |  None      |  Installed      |  perl-Getopt-Long.noarch:0:2.40-3.el7                             ||
+||  Bugfix        |  1521826916.0  |  pinentry.x86_64                                        |  None      |  Installed      |  pinentry.x86_64:0:0.8.1-17.el7                                   ||
+||  Bugfix        |  1576060946.0  |  pixman.x86_64                                          |  None      |  Installed      |  pixman.x86_64:0:0.34.0-1.el7                                     ||
+||  Bugfix        |  1576052800.0  |  polkit.x86_64                                          |  None      |  Installed      |  polkit.x86_64:0:0.112-22.el7_7.1                                 ||
+||  Bugfix        |  1521826985.0  |  pth.x86_64                                             |  None      |  Installed      |  pth.x86_64:0:2.0.7-23.el7                                        ||
+||  Bugfix        |  1576052783.0  |  pyOpenSSL.x86_64                                       |  None      |  Installed      |  pyOpenSSL.x86_64:0:0.13.1-4.el7                                  ||
+||  Bugfix        |  1521826943.0  |  pyserial.noarch                                        |  None      |  Installed      |  pyserial.noarch:0:2.6-6.el7                                      ||
+||  Security      |  1576052781.0  |  python.x86_64                                          |  Important |  Installed      |  python.x86_64:0:2.7.5-86.el7                                     ||
+||  Bugfix        |  1521826942.0  |  python-backports.x86_64                                |  None      |  Installed      |  python-backports.x86_64:0:1.0-8.el7                              ||
+||  Bugfix        |  1521826942.0  |  python-backports-ssl_match_hostname.noarch             |  None      |  Installed      |  python-backports-ssl_match_hostname.noarch:0:3.5.0.1-1.el7       ||
+||  Bugfix        |  1576052783.0  |  python-chardet.noarch                                  |  None      |  Installed      |  python-chardet.noarch:0:2.2.1-3.el7                              ||
+||  Bugfix        |  1576052782.0  |  python-ethtool.x86_64                                  |  None      |  Installed      |  python-ethtool.x86_64:0:0.8-8.el7                                ||
+||  Bugfix        |  1576052783.0  |  python-ipaddr.noarch                                   |  None      |  Installed      |  python-ipaddr.noarch:0:2.1.11-2.el7                              ||
+||  Bugfix        |  1521826937.0  |  python-ipaddress.noarch                                |  None      |  Installed      |  python-ipaddress.noarch:0:1.0.16-2.el7                           ||
+||  Bugfix        |  1576060948.0  |  python-javapackages.noarch                             |  None      |  Installed      |  python-javapackages.noarch:0:3.4.1-11.el7                        ||
+||  Bugfix        |  1576052783.0  |  python-jinja2.noarch                                   |  None      |  Installed      |  python-jinja2.noarch:0:2.7.2-4.el7                               ||
+||  Bugfix        |  1521826946.0  |  python-jsonpatch.noarch                                |  None      |  Installed      |  python-jsonpatch.noarch:0:1.2-4.el7                              ||
+||  Security      |  1576052781.0  |  python-libs.x86_64                                     |  Important |  Installed      |  python-libs.x86_64:0:2.7.5-86.el7                                ||
+||  Bugfix        |  1576052783.0  |  python-linux-procfs.noarch                             |  None      |  Installed      |  python-linux-procfs.noarch:0:0.4.11-4.el7                        ||
+||  Bugfix        |  1576052783.0  |  python-magic.noarch                                    |  None      |  Installed      |  python-magic.noarch:0:5.11-35.el7                                ||
+||  Bugfix        |  1521826945.0  |  python-prettytable.noarch                              |  None      |  Installed      |  python-prettytable.noarch:0:0.7.2-3.el7                          ||
+||  Bugfix        |  1521826964.0  |  python-pycurl.x86_64                                   |  None      |  Installed      |  python-pycurl.x86_64:0:7.19.0-19.el7                             ||
+||  Bugfix        |  1521826985.0  |  python-pyudev.noarch                                   |  None      |  Installed      |  python-pyudev.noarch:0:0.15-9.el7                                ||
+||  Bugfix        |  1521826942.0  |  python-setuptools.noarch                               |  None      |  Installed      |  python-setuptools.noarch:0:0.9.8-7.el7                           ||
+||  Bugfix        |  1576052783.0  |  python-urllib3.noarch                                  |  None      |  Installed      |  python-urllib3.noarch:0:1.10.2-7.el7                             ||
+||  Bugfix        |  1576052831.0  |  qemu-guest-agent.x86_64                                |  None      |  Installed      |  qemu-guest-agent.x86_64:10:2.12.0-3.el7                          ||
+||  Bugfix        |  1576052777.0  |  readline.x86_64                                        |  None      |  Installed      |  readline.x86_64:0:6.2-11.el7                                     ||
+||  Bugfix        |  1576052831.0  |  rhn-check.x86_64                                       |  None      |  Installed      |  rhn-check.x86_64:0:2.0.2-24.el7                                  ||
+||  Bugfix        |  1576052786.0  |  rhn-client-tools.x86_64                                |  None      |  Installed      |  rhn-client-tools.x86_64:0:2.0.2-24.el7                           ||
+||  Bugfix        |  1576052823.0  |  rhn-setup.x86_64                                       |  None      |  Installed      |  rhn-setup.x86_64:0:2.0.2-24.el7                                  ||
+||  Bugfix        |  1576052783.0  |  rhnlib.noarch                                          |  None      |  Installed      |  rhnlib.noarch:0:2.5.65-8.el7                                     ||
+||  Bugfix        |  1521826988.0  |  rhnsd.x86_64                                           |  None      |  Installed      |  rhnsd.x86_64:0:5.0.13-10.el7                                     ||
+||  Bugfix        |  1576052785.0  |  setools-libs.x86_64                                    |  None      |  Installed      |  setools-libs.x86_64:0:3.3.8-4.el7                                ||
+||  Bugfix        |  1576052779.0  |  shadow-utils.x86_64                                    |  None      |  Installed      |  shadow-utils.x86_64:2:4.6-5.el7                                  ||
+||  Bugfix        |  1521826933.0  |  shared-mime-info.x86_64                                |  None      |  Installed      |  shared-mime-info.x86_64:0:1.8-4.el7                              ||
+||  Bugfix        |  1576052787.0  |  tar.x86_64                                             |  None      |  Installed      |  tar.x86_64:2:1.26-35.el7                                         ||
+||  Bugfix        |  1576060952.0  |  ttmkfdir.x86_64                                        |  None      |  Installed      |  ttmkfdir.x86_64:0:3.0.9-42.el7                                   ||
+||  Bugfix        |  1576052771.0  |  tzdata.noarch                                          |  None      |  Installed      |  tzdata.noarch:0:2019c-1.el7                                      ||
+||  Bugfix        |  1576060947.0  |  tzdata-java.noarch                                     |  None      |  Installed      |  tzdata-java.noarch:0:2019c-1.el7                                 ||
+||  Bugfix        |  1576060847.0  |  unzip.x86_64                                           |  None      |  Installed      |  unzip.x86_64:0:6.0-20.el7                                        ||
+||  Bugfix        |  1576052801.0  |  usermode.x86_64                                        |  None      |  Installed      |  usermode.x86_64:0:1.111-6.el7                                    ||
+||  Bugfix        |  1576057765.0  |  vim-common.x86_64                                      |  None      |  Installed      |  vim-common.x86_64:2:7.4.629-6.el7                                ||
+||  Bugfix        |  1576057765.0  |  vim-enhanced.x86_64                                    |  None      |  Installed      |  vim-enhanced.x86_64:2:7.4.629-6.el7                              ||
+||  Bugfix        |  1576057763.0  |  vim-filesystem.x86_64                                  |  None      |  Installed      |  vim-filesystem.x86_64:2:7.4.629-6.el7                            ||
+||  Bugfix        |  1576052787.0  |  vim-minimal.x86_64                                     |  None      |  Installed      |  vim-minimal.x86_64:2:7.4.629-6.el7                               ||
+||  Bugfix        |  1521826980.0  |  virt-what.x86_64                                       |  None      |  Installed      |  virt-what.x86_64:0:1.18-4.el7                                    ||
+||  Security      |  1576057751.0  |  wget.x86_64                                            |  Important |  Installed      |  wget.x86_64:0:1.14-18.el7_6.1                                    ||
+||  Bugfix        |  1576052809.0  |  wpa_supplicant.x86_64                                  |  None      |  Installed      |  wpa_supplicant.x86_64:1:2.6-12.el7                               ||
+||  Bugfix        |  1521826991.0  |  xdg-utils.noarch                                       |  None      |  Installed      |  xdg-utils.noarch:0:1.1.0-0.17.20120809git.el7                    ||
+||  Bugfix        |  1576052832.0  |  xfsprogs.x86_64                                        |  None      |  Installed      |  xfsprogs.x86_64:0:4.5.0-20.el7                                   ||
+||  Bugfix        |  1576060946.0  |  xorg-x11-font-utils.x86_64                             |  None      |  Installed      |  xorg-x11-font-utils.x86_64:1:7.5-21.el7                          ||
+||  Bugfix        |  1521826910.0  |  xz.x86_64                                              |  None      |  Installed      |  xz.x86_64:0:5.2.2-1.el7                                          ||
+||  Bugfix        |  1521826903.0  |  xz-libs.x86_64                                         |  None      |  Installed      |  xz-libs.x86_64:0:5.2.2-1.el7                                     ||
+||  Bugfix        |  1521826988.0  |  yum-rhn-plugin.noarch                                  |  None      |  Installed      |  yum-rhn-plugin.noarch:0:2.0.1-10.el7                             ||
+||  Bugfix        |  1576060798.0  |  zip.x86_64                                             |  None      |  Installed      |  zip.x86_64:0:3.0-11.el7                                          ||
+||  Bugfix        |  1576052777.0  |  zlib.x86_64                                            |  None      |  Installed      |  zlib.x86_64:0:1.2.7-18.el7                                       ||
+||                |  1521826943.0  |  PyYAML.x86_64                                          |            |  InstalledOther |  PyYAML.x86_64:0:3.10-11.el7                                      ||
+||                |  1521826993.0  |  Red_Hat_Enterprise_Linux-Release_Notes-7-en-US.noarch  |            |  InstalledOther |  Red_Hat_Enterprise_Linux-Release_Notes-7-en-US.noarch:0:7-2.el7  ||
+||                |  1586344005.0  |  amazon-ssm-agent.x86_64                                |            |  InstalledOther |  amazon-ssm-agent.x86_64:0:2.3.978.0-1                            ||
+||                |  1521826890.0  |  basesystem.noarch                                      |            |  InstalledOther |  basesystem.noarch:0:10.0-7.el7                                   ||
+||                |  1576058945.0  |  container-selinux.noarch                               |            |  InstalledOther |  container-selinux.noarch:2:2.74-1.el7                            ||
+||                |  1576059206.0  |  containerd.io.x86_64                                   |            |  InstalledOther |  containerd.io.x86_64:0:1.2.10-3.2.el7                            ||
+||                |  1521826932.0  |  cracklib.x86_64                                        |            |  InstalledOther |  cracklib.x86_64:0:2.9.0-11.el7                                   ||
+||                |  1521826935.0  |  cracklib-dicts.x86_64                                  |            |  InstalledOther |  cracklib-dicts.x86_64:0:2.9.0-11.el7                             ||
+||                |  1521826978.0  |  crontabs.noarch                                        |            |  InstalledOther |  crontabs.noarch:0:1.11-6.20121102git.el7                         ||
+||                |  1521826984.0  |  dbus-glib.x86_64                                       |            |  InstalledOther |  dbus-glib.x86_64:0:0.100-7.el7                                   ||
+||                |  1521826984.0  |  dbus-python.x86_64                                     |            |  InstalledOther |  dbus-python.x86_64:0:1.1.1-9.el7                                 ||
+||                |  1576060945.0  |  dejavu-fonts-common.noarch                             |            |  InstalledOther |  dejavu-fonts-common.noarch:0:2.33-6.el7                          ||
+||                |  1576060945.0  |  dejavu-sans-fonts.noarch                               |            |  InstalledOther |  dejavu-sans-fonts.noarch:0:2.33-6.el7                            ||
+||                |  1576059209.0  |  docker-ce.x86_64                                       |            |  InstalledOther |  docker-ce.x86_64:3:19.03.5-3.el7                                 ||
+||                |  1576059203.0  |  docker-ce-cli.x86_64                                   |            |  InstalledOther |  docker-ce-cli.x86_64:1:19.03.5-3.el7                             ||
+||                |  1576063961.0  |  docker-compose.noarch                                  |            |  InstalledOther |  docker-compose.noarch:0:1.18.0-4.el7                             ||
+||                |  1576062019.0  |  epel-release.noarch                                    |            |  InstalledOther |  epel-release.noarch:0:7-12                                       ||
+||                |  1521826908.0  |  expat.x86_64                                           |            |  InstalledOther |  expat.x86_64:0:2.1.0-10.el7_3                                    ||
+||                |  1576060944.0  |  fontpackages-filesystem.noarch                         |            |  InstalledOther |  fontpackages-filesystem.noarch:0:1.44-8.el7                      ||
+||                |  1521826912.0  |  gdbm.x86_64                                            |            |  InstalledOther |  gdbm.x86_64:0:1.10-8.el7                                         ||
+||                |  1576052786.0  |  geoipupdate.x86_64                                     |            |  InstalledOther |  geoipupdate.x86_64:0:2.5.0-1.el7                                 ||
+||                |  1576060948.0  |  giflib.x86_64                                          |            |  InstalledOther |  giflib.x86_64:0:4.1.6-9.el7                                      ||
+||                |  1521826987.0  |  gpgme.x86_64                                           |            |  InstalledOther |  gpgme.x86_64:0:1.3.2-5.el7                                       ||
+||                |  1521826910.0  |  groff-base.x86_64                                      |            |  InstalledOther |  groff-base.x86_64:0:1.22.2-8.el7                                 ||
+||                |  1521826965.0  |  hardlink.x86_64                                        |            |  InstalledOther |  hardlink.x86_64:1:1.0-19.el7                                     ||
+||                |  1576060952.0  |  hicolor-icon-theme.noarch                              |            |  InstalledOther |  hicolor-icon-theme.noarch:0:0.12-7.el7                           ||
+||                |  1576060946.0  |  jbigkit-libs.x86_64                                    |            |  InstalledOther |  jbigkit-libs.x86_64:0:2.0-11.el7                                 ||
+||                |  1576052797.0  |  json-c.x86_64                                          |            |  InstalledOther |  json-c.x86_64:0:0.11-4.el7_0                                     ||
+||                |  1521826913.0  |  keyutils-libs.x86_64                                   |            |  InstalledOther |  keyutils-libs.x86_64:0:1.5.8-3.el7                               ||
+||                |  1576060946.0  |  libXau.x86_64                                          |            |  InstalledOther |  libXau.x86_64:0:1.0.8-2.1.el7                                    ||
+||                |  1576060947.0  |  libXcomposite.x86_64                                   |            |  InstalledOther |  libXcomposite.x86_64:0:0.4.4-4.1.el7                             ||
+||                |  1576060947.0  |  libXcursor.x86_64                                      |            |  InstalledOther |  libXcursor.x86_64:0:1.1.15-1.el7                                 ||
+||                |  1576060947.0  |  libXdamage.x86_64                                      |            |  InstalledOther |  libXdamage.x86_64:0:1.1.4-4.1.el7                                ||
+||                |  1576060947.0  |  libXfixes.x86_64                                       |            |  InstalledOther |  libXfixes.x86_64:0:5.0.3-1.el7                                   ||
+||                |  1576060947.0  |  libXinerama.x86_64                                     |            |  InstalledOther |  libXinerama.x86_64:0:1.1.3-2.1.el7                               ||
+||                |  1576060947.0  |  libXrender.x86_64                                      |            |  InstalledOther |  libXrender.x86_64:0:0.9.10-1.el7                                 ||
+||                |  1576060947.0  |  libXtst.x86_64                                         |            |  InstalledOther |  libXtst.x86_64:0:1.2.3-1.el7                                     ||
+||                |  1576060948.0  |  libXxf86vm.x86_64                                      |            |  InstalledOther |  libXxf86vm.x86_64:0:1.1.4-1.el7                                  ||
+||                |  1521826909.0  |  libassuan.x86_64                                       |            |  InstalledOther |  libassuan.x86_64:0:2.1.0-3.el7                                   ||
+||                |  1576052832.0  |  libcroco.x86_64                                        |            |  InstalledOther |  libcroco.x86_64:0:0.6.12-4.el7                                   ||
+||                |  1521826921.0  |  libdaemon.x86_64                                       |            |  InstalledOther |  libdaemon.x86_64:0:0.14-7.el7                                    ||
+||                |  1521826911.0  |  libedit.x86_64                                         |            |  InstalledOther |  libedit.x86_64:0:3.0-12.20121213cvs.el7                          ||
+||                |  1521826922.0  |  libestr.x86_64                                         |            |  InstalledOther |  libestr.x86_64:0:0.1.9-2.el7                                     ||
+||                |  1576060944.0  |  libglvnd.x86_64                                        |            |  InstalledOther |  libglvnd.x86_64:1:1.0.1-0.8.git5baa1e5.el7                       ||
+||                |  1576060952.0  |  libglvnd-egl.x86_64                                    |            |  InstalledOther |  libglvnd-egl.x86_64:1:1.0.1-0.8.git5baa1e5.el7                   ||
+||                |  1576060952.0  |  libglvnd-glx.x86_64                                    |            |  InstalledOther |  libglvnd-glx.x86_64:1:1.0.1-0.8.git5baa1e5.el7                   ||
+||                |  1521826906.0  |  libgpg-error.x86_64                                    |            |  InstalledOther |  libgpg-error.x86_64:0:1.12-3.el7                                 ||
+||                |  1521826909.0  |  libmnl.x86_64                                          |            |  InstalledOther |  libmnl.x86_64:0:1.0.3-7.el7                                      ||
+||                |  1521826911.0  |  libnfnetlink.x86_64                                    |            |  InstalledOther |  libnfnetlink.x86_64:0:1.0.1-4.el7                                ||
+||                |  1521826920.0  |  libnl.x86_64                                           |            |  InstalledOther |  libnl.x86_64:0:1.1.4-3.el7                                       ||
+||                |  1521826985.0  |  libpipeline.x86_64                                     |            |  InstalledOther |  libpipeline.x86_64:0:1.2.3-3.el7                                 ||
+||                |  1576052786.0  |  libpng.x86_64                                          |            |  InstalledOther |  libpng.x86_64:2:1.5.13-7.el7_2                                   ||
+||                |  1521827147.0  |  libsysfs.x86_64                                        |            |  InstalledOther |  libsysfs.x86_64:0:2.1.0-16.el7                                   ||
+||                |  1576060946.0  |  libthai.x86_64                                         |            |  InstalledOther |  libthai.x86_64:0:0.1.14-9.el7                                    ||
+||                |  1521826910.0  |  libunistring.x86_64                                    |            |  InstalledOther |  libunistring.x86_64:0:0.9.3-9.el7                                ||
+||                |  1521826941.0  |  libutempter.x86_64                                     |            |  InstalledOther |  libutempter.x86_64:0:1.1.6-4.el7                                 ||
+||                |  1521826920.0  |  libverto.x86_64                                        |            |  InstalledOther |  libverto.x86_64:0:0.2.5-4.el7                                    ||
+||                |  1521826915.0  |  libxslt.x86_64                                         |            |  InstalledOther |  libxslt.x86_64:0:1.1.28-5.el7                                    ||
+||                |  1521826922.0  |  libyaml.x86_64                                         |            |  InstalledOther |  libyaml.x86_64:0:0.1.4-11.el7_0                                  ||
+||                |  1521826912.0  |  newt.x86_64                                            |            |  InstalledOther |  newt.x86_64:0:0.52.15-4.el7                                      ||
+||                |  1521826934.0  |  newt-python.x86_64                                     |            |  InstalledOther |  newt-python.x86_64:0:0.52.15-4.el7                               ||
+||                |  1576057761.0  |  perl-Carp.noarch                                       |            |  InstalledOther |  perl-Carp.noarch:0:1.26-244.el7                                  ||
+||                |  1576057761.0  |  perl-Encode.x86_64                                     |            |  InstalledOther |  perl-Encode.x86_64:0:2.51-7.el7                                  ||
+||                |  1576057761.0  |  perl-Exporter.noarch                                   |            |  InstalledOther |  perl-Exporter.noarch:0:5.68-3.el7                                ||
+||                |  1576057761.0  |  perl-File-Path.noarch                                  |            |  InstalledOther |  perl-File-Path.noarch:0:2.09-2.el7                               ||
+||                |  1576057761.0  |  perl-File-Temp.noarch                                  |            |  InstalledOther |  perl-File-Temp.noarch:0:0.23.01-3.el7                            ||
+||                |  1576057761.0  |  perl-Filter.x86_64                                     |            |  InstalledOther |  perl-Filter.x86_64:0:1.49-3.el7                                  ||
+||                |  1576057760.0  |  perl-HTTP-Tiny.noarch                                  |            |  InstalledOther |  perl-HTTP-Tiny.noarch:0:0.033-3.el7                              ||
+||                |  1576057761.0  |  perl-PathTools.x86_64                                  |            |  InstalledOther |  perl-PathTools.x86_64:0:3.40-5.el7                               ||
+||                |  1576057761.0  |  perl-Pod-Perldoc.noarch                                |            |  InstalledOther |  perl-Pod-Perldoc.noarch:0:3.20-4.el7                             ||
+||                |  1576057761.0  |  perl-Pod-Simple.noarch                                 |            |  InstalledOther |  perl-Pod-Simple.noarch:1:3.28-4.el7                              ||
+||                |  1576057761.0  |  perl-Pod-Usage.noarch                                  |            |  InstalledOther |  perl-Pod-Usage.noarch:0:1.63-3.el7                               ||
+||                |  1576057761.0  |  perl-Scalar-List-Utils.x86_64                          |            |  InstalledOther |  perl-Scalar-List-Utils.x86_64:0:1.27-248.el7                     ||
+||                |  1576057761.0  |  perl-Storable.x86_64                                   |            |  InstalledOther |  perl-Storable.x86_64:0:2.45-3.el7                                ||
+||                |  1576057761.0  |  perl-Text-ParseWords.noarch                            |            |  InstalledOther |  perl-Text-ParseWords.noarch:0:3.29-4.el7                         ||
+||                |  1576057761.0  |  perl-Time-HiRes.x86_64                                 |            |  InstalledOther |  perl-Time-HiRes.x86_64:4:1.9725-3.el7                            ||
+||                |  1576057761.0  |  perl-Time-Local.noarch                                 |            |  InstalledOther |  perl-Time-Local.noarch:0:1.2300-2.el7                            ||
+||                |  1576057761.0  |  perl-constant.noarch                                   |            |  InstalledOther |  perl-constant.noarch:0:1.27-2.el7                                ||
+||                |  1576057760.0  |  perl-parent.noarch                                     |            |  InstalledOther |  perl-parent.noarch:1:0.225-244.el7                               ||
+||                |  1576057760.0  |  perl-podlators.noarch                                  |            |  InstalledOther |  perl-podlators.noarch:0:2.5.1-3.el7                              ||
+||                |  1576057761.0  |  perl-threads.x86_64                                    |            |  InstalledOther |  perl-threads.x86_64:0:1.87-4.el7                                 ||
+||                |  1576057761.0  |  perl-threads-shared.x86_64                             |            |  InstalledOther |  perl-threads-shared.x86_64:0:1.43-6.el7                          ||
+||                |  1521826940.0  |  pkgconfig.x86_64                                       |            |  InstalledOther |  pkgconfig.x86_64:1:0.27.1-4.el7                                  ||
+||                |  1521826974.0  |  polkit-pkla-compat.x86_64                              |            |  InstalledOther |  polkit-pkla-compat.x86_64:0:0.1-4.el7                            ||
+||                |  1521826903.0  |  popt.x86_64                                            |            |  InstalledOther |  popt.x86_64:0:1.13-16.el7                                        ||
+||                |  1521826940.0  |  pygobject2.x86_64                                      |            |  InstalledOther |  pygobject2.x86_64:0:2.28.6-11.el7                                ||
+||                |  1521826987.0  |  pygpgme.x86_64                                         |            |  InstalledOther |  pygpgme.x86_64:0:0.3-9.el7                                       ||
+||                |  1521826945.0  |  pyliblzma.x86_64                                       |            |  InstalledOther |  pyliblzma.x86_64:0:0.5.3-11.el7                                  ||
+||                |  1521826943.0  |  python-IPy.noarch                                      |            |  InstalledOther |  python-IPy.noarch:0:0.75-6.el7                                   ||
+||                |  1521826944.0  |  python-babel.noarch                                    |            |  InstalledOther |  python-babel.noarch:0:0.9.6-8.el7                                ||
+||                |  1521826937.0  |  python-configobj.noarch                                |            |  InstalledOther |  python-configobj.noarch:0:4.7.2-7.el7                            ||
+||                |  1521826931.0  |  python-dateutil.noarch                                 |            |  InstalledOther |  python-dateutil.noarch:0:1.5-7.el7                               ||
+||                |  1521826931.0  |  python-decorator.noarch                                |            |  InstalledOther |  python-decorator.noarch:0:3.4.0-3.el7                            ||
+||                |  1521826934.0  |  python-gobject-base.x86_64                             |            |  InstalledOther |  python-gobject-base.x86_64:0:3.22.0-1.el7_4.1                    ||
+||                |  1521826985.0  |  python-gudev.x86_64                                    |            |  InstalledOther |  python-gudev.x86_64:0:147.2-7.el7                                ||
+||                |  1521826980.0  |  python-hwdata.noarch                                   |            |  InstalledOther |  python-hwdata.noarch:0:1.7.3-4.el7                               ||
+||                |  1521826932.0  |  python-iniparse.noarch                                 |            |  InstalledOther |  python-iniparse.noarch:0:0.4-9.el7                               ||
+||                |  1521826946.0  |  python-inotify.noarch                                  |            |  InstalledOther |  python-inotify.noarch:0:0.9.4-4.el7                              ||
+||                |  1521826946.0  |  python-jsonpointer.noarch                              |            |  InstalledOther |  python-jsonpointer.noarch:0:1.9-2.el7                            ||
+||                |  1521826939.0  |  python-kitchen.noarch                                  |            |  InstalledOther |  python-kitchen.noarch:0:1.1.1-5.el7                              ||
+||                |  1521826937.0  |  python-lxml.x86_64                                     |            |  InstalledOther |  python-lxml.x86_64:0:3.2.1-4.el7                                 ||
+||                |  1521826942.0  |  python-markupsafe.x86_64                               |            |  InstalledOther |  python-markupsafe.x86_64:0:0.11-10.el7                           ||
+||                |  1521826945.0  |  python-schedutils.x86_64                               |            |  InstalledOther |  python-schedutils.x86_64:0:0.4-6.el7                             ||
+||                |  1521826934.0  |  python-six.noarch                                      |            |  InstalledOther |  python-six.noarch:0:1.9.0-2.el7                                  ||
+||                |  1576063957.0  |  python3.x86_64                                         |            |  InstalledOther |  python3.x86_64:0:3.6.8-10.el7                                    ||
+||                |  1576063960.0  |  python3-libs.x86_64                                    |            |  InstalledOther |  python3-libs.x86_64:0:3.6.8-10.el7                               ||
+||                |  1576063957.0  |  python3-pip.noarch                                     |            |  InstalledOther |  python3-pip.noarch:0:9.0.3-5.el7                                 ||
+||                |  1576063957.0  |  python3-setuptools.noarch                              |            |  InstalledOther |  python3-setuptools.noarch:0:39.2.0-10.el7                        ||
+||                |  1576063960.0  |  python36-PyYAML.x86_64                                 |            |  InstalledOther |  python36-PyYAML.x86_64:0:3.12-1.el7                              ||
+||                |  1576063960.0  |  python36-cached_property.noarch                        |            |  InstalledOther |  python36-cached_property.noarch:0:1.5.1-2.el7                    ||
+||                |  1576063960.0  |  python36-chardet.noarch                                |            |  InstalledOther |  python36-chardet.noarch:0:3.0.4-1.el7                            ||
+||                |  1576063960.0  |  python36-docker.noarch                                 |            |  InstalledOther |  python36-docker.noarch:0:2.6.1-3.el7                             ||
+||                |  1576063960.0  |  python36-docker-pycreds.noarch                         |            |  InstalledOther |  python36-docker-pycreds.noarch:0:0.2.1-2.el7                     ||
+||                |  1576063960.0  |  python36-dockerpty.noarch                              |            |  InstalledOther |  python36-dockerpty.noarch:0:0.4.1-10.el7                         ||
+||                |  1576063960.0  |  python36-docopt.noarch                                 |            |  InstalledOther |  python36-docopt.noarch:0:0.6.2-8.el7                             ||
+||                |  1576063960.0  |  python36-idna.noarch                                   |            |  InstalledOther |  python36-idna.noarch:0:2.7-2.el7                                 ||
+||                |  1576063960.0  |  python36-jsonschema.noarch                             |            |  InstalledOther |  python36-jsonschema.noarch:0:2.5.1-4.el7                         ||
+||                |  1576063960.0  |  python36-pysocks.noarch                                |            |  InstalledOther |  python36-pysocks.noarch:0:1.6.8-6.el7                            ||
+||                |  1576063960.0  |  python36-requests.noarch                               |            |  InstalledOther |  python36-requests.noarch:0:2.14.2-1.el7                          ||
+||                |  1576063960.0  |  python36-rfc3986.noarch                                |            |  InstalledOther |  python36-rfc3986.noarch:0:1.3.0-1.el7                            ||
+||                |  1576063960.0  |  python36-six.noarch                                    |            |  InstalledOther |  python36-six.noarch:0:1.11.0-3.el7                               ||
+||                |  1576063960.0  |  python36-texttable.noarch                              |            |  InstalledOther |  python36-texttable.noarch:0:1.6.2-1.el7                          ||
+||                |  1576063960.0  |  python36-urllib3.noarch                                |            |  InstalledOther |  python36-urllib3.noarch:0:1.25.1-1.el7                           ||
+||                |  1576063960.0  |  python36-websocket-client.noarch                       |            |  InstalledOther |  python36-websocket-client.noarch:0:0.47.0-2.el7                  ||
+||                |  1521826946.0  |  pyxattr.x86_64                                         |            |  InstalledOther |  pyxattr.x86_64:0:0.5.1-5.el7                                     ||
+||                |  1521826921.0  |  qrencode-libs.x86_64                                   |            |  InstalledOther |  qrencode-libs.x86_64:0:3.4.1-3.el7                               ||
+||                |  1576062056.0  |  redis.x86_64                                           |            |  InstalledOther |  redis.x86_64:0:5.0.7-1.el7.remi                                  ||
+||                |  1576062027.0  |  remi-release.noarch                                    |            |  InstalledOther |  remi-release.noarch:0:7.7-1.el7.remi                             ||
+||                |  1576052831.0  |  rh-amazon-rhui-client.noarch                           |            |  InstalledOther |  rh-amazon-rhui-client.noarch:0:3.0.23-1.el7                      ||
+||                |  1521827148.0  |  rootfiles.noarch                                       |            |  InstalledOther |  rootfiles.noarch:0:8.1-11.el7                                    ||
+||                |  1521826912.0  |  slang.x86_64                                           |            |  InstalledOther |  slang.x86_64:0:2.2.4-11.el7                                      ||
+||                |  1521826919.0  |  snappy.x86_64                                          |            |  InstalledOther |  snappy.x86_64:0:1.1.0-3.el7                                      ||
+||                |  1521826919.0  |  sysvinit-tools.x86_64                                  |            |  InstalledOther |  sysvinit-tools.x86_64:0:2.88-14.dsf.el7                          ||
+||                |  1521826912.0  |  tcp_wrappers-libs.x86_64                               |            |  InstalledOther |  tcp_wrappers-libs.x86_64:0:7.6-77.el7                            ||
+||                |  1576057772.0  |  telnet.x86_64                                          |            |  InstalledOther |  telnet.x86_64:1:0.17-64.el7                                      ||
+||                |  1521826921.0  |  ustr.x86_64                                            |            |  InstalledOther |  ustr.x86_64:0:1.0.4-16.el7                                       ||
+||                |  1521826907.0  |  which.x86_64                                           |            |  InstalledOther |  which.x86_64:0:2.20-7.el7                                        ||
+||                |  1576060952.0  |  xorg-x11-fonts-Type1.noarch                            |            |  InstalledOther |  xorg-x11-fonts-Type1.noarch:0:7.5-9.el7                          ||
+||                |  1521826940.0  |  yum-metadata-parser.x86_64                             |            |  InstalledOther |  yum-metadata-parser.x86_64:0:1.1.4-10.el7                        ||
+||  Bugfix        |  0.0           |  NetworkManager.x86_64                                  |  None      |  Missing        |  NetworkManager.x86_64:1:1.18.4-3.el7                             ||
+||  Bugfix        |  0.0           |  NetworkManager-config-server.noarch                    |  None      |  Missing        |  NetworkManager-config-server.noarch:1:1.18.4-3.el7               ||
+||  Bugfix        |  0.0           |  NetworkManager-libnm.x86_64                            |  None      |  Missing        |  NetworkManager-libnm.x86_64:1:1.18.4-3.el7                       ||
+||  Bugfix        |  0.0           |  NetworkManager-team.x86_64                             |  None      |  Missing        |  NetworkManager-team.x86_64:1:1.18.4-3.el7                        ||
+||  Bugfix        |  0.0           |  NetworkManager-tui.x86_64                              |  None      |  Missing        |  NetworkManager-tui.x86_64:1:1.18.4-3.el7                         ||
+||  Bugfix        |  0.0           |  acl.x86_64                                             |  None      |  Missing        |  acl.x86_64:0:2.2.51-15.el7                                       ||
+||  Bugfix        |  0.0           |  bind-export-libs.x86_64                                |  None      |  Missing        |  bind-export-libs.x86_64:32:9.11.4-16.P2.el7_8.2                  ||
+||  Bugfix        |  0.0           |  bind-libs-lite.x86_64                                  |  None      |  Missing        |  bind-libs-lite.x86_64:32:9.11.4-16.P2.el7_8.2                    ||
+||  Bugfix        |  0.0           |  bind-license.noarch                                    |  None      |  Missing        |  bind-license.noarch:32:9.11.4-16.P2.el7_8.2                      ||
+||  Bugfix        |  0.0           |  binutils.x86_64                                        |  None      |  Missing        |  binutils.x86_64:0:2.27-43.base.el7                               ||
+||  Bugfix        |  0.0           |  cloud-init.x86_64                                      |  None      |  Missing        |  cloud-init.x86_64:0:18.5-6.el7                                   ||
+||  Bugfix        |  0.0           |  cryptsetup-libs.x86_64                                 |  None      |  Missing        |  cryptsetup-libs.x86_64:0:2.0.3-6.el7                             ||
+||  Bugfix        |  0.0           |  curl.x86_64                                            |  None      |  Missing        |  curl.x86_64:0:7.29.0-54.el7_7.2                                  ||
+||  Bugfix        |  0.0           |  device-mapper.x86_64                                   |  None      |  Missing        |  device-mapper.x86_64:7:1.02.164-7.el7_8.1                        ||
+||  Bugfix        |  0.0           |  device-mapper-event.x86_64                             |  None      |  Missing        |  device-mapper-event.x86_64:7:1.02.164-7.el7_8.1                  ||
+||  Bugfix        |  0.0           |  device-mapper-event-libs.x86_64                        |  None      |  Missing        |  device-mapper-event-libs.x86_64:7:1.02.164-7.el7_8.1             ||
+||  Bugfix        |  0.0           |  device-mapper-libs.x86_64                              |  None      |  Missing        |  device-mapper-libs.x86_64:7:1.02.164-7.el7_8.1                   ||
+||  Bugfix        |  0.0           |  device-mapper-persistent-data.x86_64                   |  None      |  Missing        |  device-mapper-persistent-data.x86_64:0:0.8.5-2.el7               ||
+||  Bugfix        |  0.0           |  dhclient.x86_64                                        |  None      |  Missing        |  dhclient.x86_64:12:4.2.5-79.el7                                  ||
+||  Bugfix        |  0.0           |  dhcp-common.x86_64                                     |  None      |  Missing        |  dhcp-common.x86_64:12:4.2.5-79.el7                               ||
+||  Bugfix        |  0.0           |  dhcp-libs.x86_64                                       |  None      |  Missing        |  dhcp-libs.x86_64:12:4.2.5-79.el7                                 ||
+||  Bugfix        |  0.0           |  dracut.x86_64                                          |  None      |  Missing        |  dracut.x86_64:0:033-568.el7                                      ||
+||  Bugfix        |  0.0           |  dracut-config-generic.x86_64                           |  None      |  Missing        |  dracut-config-generic.x86_64:0:033-568.el7                       ||
+||  Bugfix        |  0.0           |  dracut-config-rescue.x86_64                            |  None      |  Missing        |  dracut-config-rescue.x86_64:0:033-568.el7                        ||
+||  Bugfix        |  0.0           |  dracut-network.x86_64                                  |  None      |  Missing        |  dracut-network.x86_64:0:033-568.el7                              ||
+||  Bugfix        |  0.0           |  e2fsprogs.x86_64                                       |  None      |  Missing        |  e2fsprogs.x86_64:0:1.42.9-17.el7                                 ||
+||  Bugfix        |  0.0           |  e2fsprogs-libs.x86_64                                  |  None      |  Missing        |  e2fsprogs-libs.x86_64:0:1.42.9-17.el7                            ||
+||  Bugfix        |  0.0           |  elfutils-default-yama-scope.noarch                     |  None      |  Missing        |  elfutils-default-yama-scope.noarch:0:0.176-4.el7                 ||
+||  Bugfix        |  0.0           |  elfutils-libelf.x86_64                                 |  None      |  Missing        |  elfutils-libelf.x86_64:0:0.176-4.el7                             ||
+||  Bugfix        |  0.0           |  elfutils-libs.x86_64                                   |  None      |  Missing        |  elfutils-libs.x86_64:0:0.176-4.el7                               ||
+||  Security      |  0.0           |  fribidi.x86_64                                         |  Important |  Missing        |  fribidi.x86_64:0:1.0.2-1.el7_7.1                                 ||
+||  Bugfix        |  0.0           |  glibc.x86_64                                           |  None      |  Missing        |  glibc.x86_64:0:2.17-307.el7.1                                    ||
+||  Bugfix        |  0.0           |  glibc-common.x86_64                                    |  None      |  Missing        |  glibc-common.x86_64:0:2.17-307.el7.1                             ||
+||  Bugfix        |  0.0           |  grub2.x86_64                                           |  None      |  Missing        |  grub2.x86_64:1:2.02-0.81.el7                                     ||
+||  Bugfix        |  0.0           |  grub2-common.noarch                                    |  None      |  Missing        |  grub2-common.noarch:1:2.02-0.81.el7                              ||
+||  Bugfix        |  0.0           |  grub2-pc.x86_64                                        |  None      |  Missing        |  grub2-pc.x86_64:1:2.02-0.81.el7                                  ||
+||  Bugfix        |  0.0           |  grub2-pc-modules.noarch                                |  None      |  Missing        |  grub2-pc-modules.noarch:1:2.02-0.81.el7                          ||
+||  Bugfix        |  0.0           |  grub2-tools.x86_64                                     |  None      |  Missing        |  grub2-tools.x86_64:1:2.02-0.81.el7                               ||
+||  Bugfix        |  0.0           |  grub2-tools-extra.x86_64                               |  None      |  Missing        |  grub2-tools-extra.x86_64:1:2.02-0.81.el7                         ||
+||  Bugfix        |  0.0           |  grub2-tools-minimal.x86_64                             |  None      |  Missing        |  grub2-tools-minimal.x86_64:1:2.02-0.81.el7                       ||
+||  Bugfix        |  0.0           |  hwdata.x86_64                                          |  None      |  Missing        |  hwdata.x86_64:0:0.252-9.5.el7                                    ||
+||  Bugfix        |  0.0           |  initscripts.x86_64                                     |  None      |  Missing        |  initscripts.x86_64:0:9.49.49-1.el7                               ||
+||  Bugfix        |  0.0           |  iptables.x86_64                                        |  None      |  Missing        |  iptables.x86_64:0:1.4.21-34.el7                                  ||
+||  Bugfix        |  0.0           |  java-1.8.0-openjdk.x86_64                              |  None      |  Missing        |  java-1.8.0-openjdk.x86_64:1:1.8.0.242.b08-1.el7                  ||
+||  Bugfix        |  0.0           |  java-1.8.0-openjdk-headless.x86_64                     |  None      |  Missing        |  java-1.8.0-openjdk-headless.x86_64:1:1.8.0.242.b08-1.el7         ||
+||  Security      |  0.0           |  kernel.x86_64                                          |  Important |  Missing        |  kernel.x86_64:0:3.10.0-1062.18.1.el7                             ||
+||  Security      |  0.0           |  kernel-tools.x86_64                                    |  Important |  Missing        |  kernel-tools.x86_64:0:3.10.0-1062.18.1.el7                       ||
+||  Security      |  0.0           |  kernel-tools-libs.x86_64                               |  Important |  Missing        |  kernel-tools-libs.x86_64:0:3.10.0-1062.18.1.el7                  ||
+||  Bugfix        |  0.0           |  kexec-tools.x86_64                                     |  None      |  Missing        |  kexec-tools.x86_64:0:2.0.15-43.el7                               ||
+||  Bugfix        |  0.0           |  kmod.x86_64                                            |  None      |  Missing        |  kmod.x86_64:0:20-28.el7                                          ||
+||  Bugfix        |  0.0           |  kmod-libs.x86_64                                       |  None      |  Missing        |  kmod-libs.x86_64:0:20-28.el7                                     ||
+||  Bugfix        |  0.0           |  kpartx.x86_64                                          |  None      |  Missing        |  kpartx.x86_64:0:0.4.9-131.el7                                    ||
+||  Bugfix        |  0.0           |  krb5-libs.x86_64                                       |  None      |  Missing        |  krb5-libs.x86_64:0:1.15.1-46.el7                                 ||
+||  Bugfix        |  0.0           |  libacl.x86_64                                          |  None      |  Missing        |  libacl.x86_64:0:2.2.51-15.el7                                    ||
+||  Bugfix        |  0.0           |  libblkid.x86_64                                        |  None      |  Missing        |  libblkid.x86_64:0:2.23.2-63.el7                                  ||
+||  Bugfix        |  0.0           |  libcap.x86_64                                          |  None      |  Missing        |  libcap.x86_64:0:2.22-11.el7                                      ||
+||  Bugfix        |  0.0           |  libcom_err.x86_64                                      |  None      |  Missing        |  libcom_err.x86_64:0:1.42.9-17.el7                                ||
+||  Bugfix        |  0.0           |  libcurl.x86_64                                         |  None      |  Missing        |  libcurl.x86_64:0:7.29.0-54.el7_7.2                               ||
+||  Bugfix        |  0.0           |  libffi.x86_64                                          |  None      |  Missing        |  libffi.x86_64:0:3.0.13-19.el7                                    ||
+||  Bugfix        |  0.0           |  libgudev1.x86_64                                       |  None      |  Missing        |  libgudev1.x86_64:0:219-73.el7_8.5                                ||
+||  Security      |  0.0           |  libicu.x86_64                                          |  Important |  Missing        |  libicu.x86_64:0:50.2-4.el7_7                                     ||
+||  Bugfix        |  0.0           |  libmount.x86_64                                        |  None      |  Missing        |  libmount.x86_64:0:2.23.2-63.el7                                  ||
+||  Bugfix        |  0.0           |  libseccomp.x86_64                                      |  None      |  Missing        |  libseccomp.x86_64:0:2.3.1-4.el7                                  ||
+||  Bugfix        |  0.0           |  libsmartcols.x86_64                                    |  None      |  Missing        |  libsmartcols.x86_64:0:2.23.2-63.el7                              ||
+||  Bugfix        |  0.0           |  libss.x86_64                                           |  None      |  Missing        |  libss.x86_64:0:1.42.9-17.el7                                     ||
+||  Bugfix        |  0.0           |  libteam.x86_64                                         |  None      |  Missing        |  libteam.x86_64:0:1.29-1.el7                                      ||
+||  Bugfix        |  0.0           |  libuuid.x86_64                                         |  None      |  Missing        |  libuuid.x86_64:0:2.23.2-63.el7                                   ||
+||  Bugfix        |  0.0           |  linux-firmware.noarch                                  |  None      |  Missing        |  linux-firmware.noarch:0:20191203-76.gite8a0f4c.el7               ||
+||  Bugfix        |  0.0           |  logrotate.x86_64                                       |  None      |  Missing        |  logrotate.x86_64:0:3.8.6-19.el7                                  ||
+||  Bugfix        |  0.0           |  lshw.x86_64                                            |  None      |  Missing        |  lshw.x86_64:0:B.02.18-14.el7                                     ||
+||  Bugfix        |  0.0           |  lvm2.x86_64                                            |  None      |  Missing        |  lvm2.x86_64:7:2.02.186-7.el7_8.1                                 ||
+||  Bugfix        |  0.0           |  lvm2-libs.x86_64                                       |  None      |  Missing        |  lvm2-libs.x86_64:7:2.02.186-7.el7_8.1                            ||
+||  Bugfix        |  0.0           |  mesa-libEGL.x86_64                                     |  None      |  Missing        |  mesa-libEGL.x86_64:0:18.3.4-7.el7                                ||
+||  Bugfix        |  0.0           |  mesa-libGL.x86_64                                      |  None      |  Missing        |  mesa-libGL.x86_64:0:18.3.4-7.el7                                 ||
+||  Bugfix        |  0.0           |  mesa-libgbm.x86_64                                     |  None      |  Missing        |  mesa-libgbm.x86_64:0:18.3.4-7.el7                                ||
+||  Bugfix        |  0.0           |  mesa-libglapi.x86_64                                   |  None      |  Missing        |  mesa-libglapi.x86_64:0:18.3.4-7.el7                              ||
+||  Security      |  0.0           |  nss.x86_64                                             |  Important |  Missing        |  nss.x86_64:0:3.44.0-7.el7_7                                      ||
+||  Security      |  0.0           |  nss-softokn.x86_64                                     |  Important |  Missing        |  nss-softokn.x86_64:0:3.44.0-8.el7_7                              ||
+||  Security      |  0.0           |  nss-softokn-freebl.x86_64                              |  Important |  Missing        |  nss-softokn-freebl.x86_64:0:3.44.0-8.el7_7                       ||
+||  Security      |  0.0           |  nss-sysinit.x86_64                                     |  Important |  Missing        |  nss-sysinit.x86_64:0:3.44.0-7.el7_7                              ||
+||  Security      |  0.0           |  nss-tools.x86_64                                       |  Important |  Missing        |  nss-tools.x86_64:0:3.44.0-7.el7_7                                ||
+||  Security      |  0.0           |  nss-util.x86_64                                        |  Important |  Missing        |  nss-util.x86_64:0:3.44.0-4.el7_7                                 ||
+||  Bugfix        |  0.0           |  numactl-libs.x86_64                                    |  None      |  Missing        |  numactl-libs.x86_64:0:2.0.12-5.el7                               ||
+||  Bugfix        |  0.0           |  pam.x86_64                                             |  None      |  Missing        |  pam.x86_64:0:1.1.8-23.el7                                        ||
+||  Bugfix        |  0.0           |  parted.x86_64                                          |  None      |  Missing        |  parted.x86_64:0:3.1-32.el7                                       ||
+||  Bugfix        |  0.0           |  passwd.x86_64                                          |  None      |  Missing        |  passwd.x86_64:0:0.79-6.el7                                       ||
+||  Bugfix        |  0.0           |  perl.x86_64                                            |  None      |  Missing        |  perl.x86_64:4:5.16.3-295.el7                                     ||
+||  Bugfix        |  0.0           |  perl-Pod-Escapes.noarch                                |  None      |  Missing        |  perl-Pod-Escapes.noarch:1:1.04-295.el7                           ||
+||  Bugfix        |  0.0           |  perl-Socket.x86_64                                     |  None      |  Missing        |  perl-Socket.x86_64:0:2.010-5.el7                                 ||
+||  Bugfix        |  0.0           |  perl-libs.x86_64                                       |  None      |  Missing        |  perl-libs.x86_64:4:5.16.3-295.el7                                ||
+||  Bugfix        |  0.0           |  perl-macros.x86_64                                     |  None      |  Missing        |  perl-macros.x86_64:4:5.16.3-295.el7                              ||
+||  Bugfix        |  0.0           |  policycoreutils.x86_64                                 |  None      |  Missing        |  policycoreutils.x86_64:0:2.5-34.el7                              ||
+||  Bugfix        |  0.0           |  policycoreutils-python.x86_64                          |  None      |  Missing        |  policycoreutils-python.x86_64:0:2.5-34.el7                       ||
+||  Bugfix        |  0.0           |  postfix.x86_64                                         |  None      |  Missing        |  postfix.x86_64:2:2.10.1-9.el7                                    ||
+||  Bugfix        |  0.0           |  procps-ng.x86_64                                       |  None      |  Missing        |  procps-ng.x86_64:0:3.3.10-27.el7                                 ||
+||  Bugfix        |  0.0           |  python-dmidecode.x86_64                                |  None      |  Missing        |  python-dmidecode.x86_64:0:3.12.2-4.el7                           ||
+||  Security      |  0.0           |  python-perf.x86_64                                     |  Important |  Missing        |  python-perf.x86_64:0:3.10.0-1062.18.1.el7                        ||
+||  Bugfix        |  0.0           |  python-requests.noarch                                 |  None      |  Missing        |  python-requests.noarch:0:2.6.0-9.el7_8                           ||
+||  Bugfix        |  0.0           |  python-syspurpose.x86_64                               |  None      |  Missing        |  python-syspurpose.x86_64:0:1.24.26-1.el7                         ||
+||  Bugfix        |  0.0           |  python-urlgrabber.noarch                               |  None      |  Missing        |  python-urlgrabber.noarch:0:3.10-10.el7                           ||
+||  Bugfix        |  0.0           |  redhat-release-server.x86_64                           |  None      |  Missing        |  redhat-release-server.x86_64:0:7.8-2.el7                         ||
+||  Bugfix        |  0.0           |  redhat-support-lib-python.noarch                       |  None      |  Missing        |  redhat-support-lib-python.noarch:0:0.12.1-1.el7                  ||
+||  Bugfix        |  0.0           |  redhat-support-tool.noarch                             |  None      |  Missing        |  redhat-support-tool.noarch:0:0.12.2-1.el7                        ||
+||  Bugfix        |  0.0           |  rpm.x86_64                                             |  None      |  Missing        |  rpm.x86_64:0:4.11.3-43.el7                                       ||
+||  Bugfix        |  0.0           |  rpm-build-libs.x86_64                                  |  None      |  Missing        |  rpm-build-libs.x86_64:0:4.11.3-43.el7                            ||
+||  Bugfix        |  0.0           |  rpm-libs.x86_64                                        |  None      |  Missing        |  rpm-libs.x86_64:0:4.11.3-43.el7                                  ||
+||  Bugfix        |  0.0           |  rpm-python.x86_64                                      |  None      |  Missing        |  rpm-python.x86_64:0:4.11.3-43.el7                                ||
+||  Bugfix        |  0.0           |  rsync.x86_64                                           |  None      |  Missing        |  rsync.x86_64:0:3.1.2-10.el7                                      ||
+||  Bugfix        |  0.0           |  rsyslog.x86_64                                         |  None      |  Missing        |  rsyslog.x86_64:0:8.24.0-41.el7_7.4                               ||
+||  Bugfix        |  0.0           |  sed.x86_64                                             |  None      |  Missing        |  sed.x86_64:0:4.2.2-6.el7                                         ||
+||  Bugfix        |  0.0           |  selinux-policy.noarch                                  |  None      |  Missing        |  selinux-policy.noarch:0:3.13.1-266.el7                           ||
+||  Bugfix        |  0.0           |  selinux-policy-targeted.noarch                         |  None      |  Missing        |  selinux-policy-targeted.noarch:0:3.13.1-266.el7                  ||
+||  Bugfix        |  0.0           |  setup.noarch                                           |  None      |  Missing        |  setup.noarch:0:2.8.71-11.el7                                     ||
+||  Bugfix        |  0.0           |  sg3_utils.x86_64                                       |  None      |  Missing        |  sg3_utils.x86_64:1:1.37-19.el7                                   ||
+||  Bugfix        |  0.0           |  sg3_utils-libs.x86_64                                  |  None      |  Missing        |  sg3_utils-libs.x86_64:1:1.37-19.el7                              ||
+||  Security      |  0.0           |  sqlite.x86_64                                          |  Important |  Missing        |  sqlite.x86_64:0:3.7.17-8.el7_7.1                                 ||
+||  Bugfix        |  0.0           |  subscription-manager.x86_64                            |  None      |  Missing        |  subscription-manager.x86_64:0:1.24.26-1.el7                      ||
+||  Bugfix        |  0.0           |  subscription-manager-rhsm.x86_64                       |  None      |  Missing        |  subscription-manager-rhsm.x86_64:0:1.24.26-1.el7                 ||
+||  Bugfix        |  0.0           |  subscription-manager-rhsm-certificates.x86_64          |  None      |  Missing        |  subscription-manager-rhsm-certificates.x86_64:0:1.24.26-1.el7    ||
+||  Bugfix        |  0.0           |  sudo.x86_64                                            |  None      |  Missing        |  sudo.x86_64:0:1.8.23-9.el7                                       ||
+||  Bugfix        |  0.0           |  systemd.x86_64                                         |  None      |  Missing        |  systemd.x86_64:0:219-73.el7_8.5                                  ||
+||  Bugfix        |  0.0           |  systemd-libs.x86_64                                    |  None      |  Missing        |  systemd-libs.x86_64:0:219-73.el7_8.5                             ||
+||  Bugfix        |  0.0           |  systemd-sysv.x86_64                                    |  None      |  Missing        |  systemd-sysv.x86_64:0:219-73.el7_8.5                             ||
+||  Bugfix        |  0.0           |  teamd.x86_64                                           |  None      |  Missing        |  teamd.x86_64:0:1.29-1.el7                                        ||
+||  Bugfix        |  0.0           |  tuned.noarch                                           |  None      |  Missing        |  tuned.noarch:0:2.11.0-8.el7                                      ||
+||  Bugfix        |  0.0           |  util-linux.x86_64                                      |  None      |  Missing        |  util-linux.x86_64:0:2.23.2-63.el7                                ||
+||  Bugfix        |  0.0           |  yum.noarch                                             |  None      |  Missing        |  yum.noarch:0:3.4.3-167.el7                                       ||
+||  Bugfix        |  0.0           |  yum-utils.noarch                                       |  None      |  Missing        |  yum-utils.noarch:0:1.1.31-53.el7                                 ||
+|+----------------+----------------+---------------------------------------------------------+------------+-----------------+-------------------------------------------------------------------+|
